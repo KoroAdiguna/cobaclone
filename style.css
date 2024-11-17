@@ -1,0 +1,157 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 17pt;
+}
+
+header {
+  display: flex;
+ flex-direction: row;
+  background-color: darkblue;
+  color: white;
+  position: fixed;
+  width: 1411px;
+}
+
+header .img img{
+ height: 65px;
+ margin-top: 15px;
+ cursor: pointer;
+}
+
+header div.login button.submit{
+  margin-right: 8px;
+  margin-left: 12px;
+  justify-content: end;
+}
+
+header .login button {
+  font-size: 20px;
+  height: 65px;
+  border-radius: 7px;
+  margin-top: 15px;
+  align-items: center;
+  margin-bottom: 5px;
+  background-color: dodgerblue;
+  color: white;
+  border: none; 
+  cursor: pointer;
+}
+
+header .up {
+  height: 49px;
+  width: 96px;
+  margin-top: 25px;
+  margin-left: 930px;
+  background-color: #39B134;
+  cursor: pointer;
+}
+
+header .up img {
+  margin-top: 8px;
+  margin-left: 9px;
+  height: 35px; 
+  transform: scale(1);
+}
+
+main {
+  display: flex;
+  background: url(IMAGE/is.jpg);
+  color: white;
+  height:757px;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+main .style {
+  margin-top: 180px;
+  
+}
+main .style h2 {
+  font-size: 35pt;
+  cursor: default;
+}
+
+main .style .ref a {
+  display: flex;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 99px;
+  background: #107DC2;
+  border-radius: 6px;
+  width: 349px;
+}
+
+main .style .ref {
+  height: 99px;
+  justify-content: center;
+  margin-left: 175px;
+}
+
+footer {
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times,'Times New Roman', serif;
+  cursor: default;
+}
+footer .robs {
+  text-align: center;
+}
+
+footer .font {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .font .c {
+  color: white;
+  background-color: darkgrey;
+  background-size: 99px;
+  border-radius: 99px;
+}
+
+footer .under {
+  background-color: black;
+  color: gray;
+  justify-content: space-between;
+  height: 339px;
+}
+
+footer .under a{
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  font: 5pt;
+}
+
+footer .jes {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  height: 499px;
+}
+
+footer .jes h5 {
+  margin-top: 380px;
+}
+
+footer .up {
+  display: flex;
+  justify-content: space-between;
+  color: lightgray;
+  margin: 23px;
+}
+
+footer .up a {
+  align-items: center;
+  color: inherit;
+}
+
+footer .plus {
+  color: black;
+  justify-items: center;
+  text-align: center;
+}
