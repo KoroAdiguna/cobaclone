@@ -123,7 +123,23 @@ footer .font .c .Cj{
 
 footer .font .c {
   color:white;
- 
+}
+
+footer div.bagiantengah{
+  background-color: rgb(235, 235, 235);
+}
+
+footer div.tengah{
+text-align: center;
+padding: 123px;
+}
+
+footer div.tengah h2{
+  color: rgb(24, 144, 214);
+}
+
+footer div.tengah div.tengahdalem h4{
+  color: black;
 }
 
 footer .under {
@@ -169,4 +185,5 @@ footer .plus {
   justify-items: center;
   text-align: center;
   size: 10px;
+  padding: 123px;
 }
