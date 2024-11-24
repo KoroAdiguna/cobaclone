@@ -24,22 +24,31 @@ header .img img{
  cursor: pointer;
 }
 
-header div.login button.submit{
-  margin-right: 4px;
+header div.img{
+  display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-content: center;
+  font-size: 15pt;
+  cursor: default;
 }
 
 header .login button {
   font-size: 20px;
   box-sizing: border-box;
-  height: 70%;
-  border-radius: 7px;
+  height: 60%;
+  border-radius: 1px;
   margin-top: 15px;
   align-items: center;
   margin-bottom: 5px;
-  background-color: dodgerblue;
+  background-color: rgb(12, 76, 214);
   color: white;
   border: none; 
   cursor: pointer;
+}
+
+header div.login button a{
+  text-decoration: none;
+  color: inherit;
 }
 
 header .up {
@@ -71,11 +80,12 @@ main {
 
 main .style {
   margin-top: 180px;
-  
+ 
 }
-main .style h2 {
+main div.style h2 {
   font-size: 35pt;
   cursor: default;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main .style .ref a {
@@ -92,20 +102,19 @@ main .style .ref a {
 
 main .style .ref {
   height: 99px;
-  justify-content: center;
-  margin-left: 175px;
+  justify-items: center;
 }
 
-footer {
+main2 {
   color: gray;
   font-family: Cambria, Cochin, Georgia, Times,'Times New Roman', serif;
   cursor: default;
 }
-footer .robs {
+main2 .robs {
   text-align: center;
 }
 
-footer .font {
+main2 .font {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -113,7 +122,7 @@ footer .font {
   font: normal normal normal 22px/1.6 'Open Sans', sans-serifr;
 }
 
-footer .font .c .Cj{
+main2 .font .c .Cj{
  background-color:grey ;
  align-content: center; 
  border-radius: 99px;
@@ -121,32 +130,49 @@ footer .font .c .Cj{
  height: 75px;
 }
 
-footer .font .c {
+main2 .font .c {
   color:white;
 }
 
-footer div.bagiantengah{
+main2  div.bagiantengah{
   background-color: rgb(235, 235, 235);
 }
 
-footer div.tengah{
+main2 div.tengah{
 text-align: center;
 padding: 123px;
 }
 
-footer div.tengah h2{
+main2 div.tengah h2{
   color: rgb(24, 144, 214);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-footer div.tengah div.tengahdalem h4{
+main2 div.tengah div.tengahdalem h4{
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
 }
 
-footer .under {
-  background-color: black;
+footer div.under {
+  background-color: #1E232F;
+}
+
+footer div.under div.undertengah{
+  text-align: center;
+  color: white;
+  font-size: 30pt;
+  padding: 100px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+footer div.under div.codeunder{
   color: gray;
-  justify-content: space-between;
-  height: 339px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 365px;
+  display: flex;
+  gap: 99px;
+  margin-left: 123px;
 }
 
 footer .under a{
@@ -156,23 +182,45 @@ footer .under a{
   font: 5pt;
 }
 
-footer .jes {
-  display: flex;
-  justify-content: center;
-  color: white;
-  background-color: black;
-  height: 499px;
-}
-
-footer .jes h5 {
-  margin-top: 380px;
-}
-
 footer .up {
-  display: flex;
-  justify-content: space-between;
-  color: lightgray;
+  flex-direction: column;
   margin: 23px;
+}
+
+footer div.up a.company{
+  margin-bottom: 22px;
+  color: lightgray;
+}
+
+footer div.under div.under1{
+  flex-direction: column;
+  margin: 23px;
+}
+
+footer div.under div.under1 a.tools{
+  margin-bottom: 22px;
+  color: lightgray;
+}
+
+
+footer div.under div.under2{
+  flex-direction: column;
+  margin: 23px;
+}
+
+footer div.under div.under2  a.upgrade{
+  margin-bottom: 22px;
+  color: lightgray;
+}
+
+footer div.under div.under3{
+  flex-direction: column;
+  margin: 23px;
+}
+
+footer div.under div.under3 a.support{
+  margin-bottom: 22px;
+  color: lightgray;
 }
 
 footer .up a {
@@ -180,10 +228,34 @@ footer .up a {
   color: inherit;
 }
 
-footer .plus {
+main2 .plus {
   color: black;
   justify-items: center;
   text-align: center;
   size: 10px;
   padding: 123px;
+  font-size: 12pt;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  flex-wrap: wrap;
+}
+
+main2 div.plus h4{
+  width: 192px;
+}
+
+footer div.under div.dll{
+  align-items: center;
+  display: flex;
+  color: gray;
+  margin-left: 122px;
+  gap: 38px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer div.under div.dll h5{
+  color: white;
+}
+
+main2 div.plus img{
+  height: 15rem;
 }
