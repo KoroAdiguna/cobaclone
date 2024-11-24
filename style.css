@@ -76,6 +76,7 @@ main {
   background-position: center;
   justify-content: center;
   align-items: center;
+  width:190vh
 }
 
 main .style {
@@ -110,6 +111,9 @@ main2 {
   font-family: Cambria, Cochin, Georgia, Times,'Times New Roman', serif;
   cursor: default;
 }
+main2 .tambalan{
+  width:190vh
+}
 main2 .robs {
   text-align: center;
 }
@@ -136,6 +140,7 @@ main2 .font .c {
 
 main2  div.bagiantengah{
   background-color: rgb(235, 235, 235);
+  width: 190vh
 }
 
 main2 div.tengah{
@@ -156,6 +161,7 @@ main2 div.tengah div.tengahdalem h4{
 
 footer div.under {
   background-color: #1E232F;
+  width: 190vh;
 }
 
 footer div.under div.undertengah{
@@ -171,6 +177,7 @@ footer div.under div.codeunder{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 365px;
   display: flex;
+  flex-wrap: nowrap;
   gap: 99px;
   margin-left: 123px;
 }
@@ -245,7 +252,7 @@ main2 div.plus h4{
 
 footer div.under div.dll{
   align-items: center;
-  display: flex;
+  display:flex;
   color: gray;
   margin-left: 122px;
   gap: 38px;
